@@ -3,11 +3,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    color: #141414;
 }
 
 .titulo{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
+    font-family: 'Fira Sans', Arial, sans-serif;
 }
 
 .header-nav-menu{
@@ -19,7 +21,7 @@
 
 .header-nav-menu a{
     text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    color: #141414;
+    font-family: 'Fira Sans', Arial, sans-serif;
     font-size: 1.3rem;
 }
