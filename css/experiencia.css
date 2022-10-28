@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.experiencia p{
+    font-size: 1.3rem;
+    max-width: 40ch;
+    font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+.empresa{
+    grid-column: 2;
+}
