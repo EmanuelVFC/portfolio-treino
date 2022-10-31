@@ -11,7 +11,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 50px 100px;
+    gap: 100px;
 }
 
 .substitulo{
@@ -22,4 +22,8 @@
     max-width: 4ch;
     text-transform: uppercase;
     color: #e0e0e0;
+}
+
+.experiencia{
+    font-family: 'Fira Sans', Arial, sans-serif;
 }
