@@ -2,10 +2,16 @@
 
 .experiencia p{
     font-size: 1.3rem;
+    line-height: 1.33;
     max-width: 40ch;
     font-family: 'Fira Sans', Arial, sans-serif;
+    margin-bottom: 60px;
 }
 
 .empresa{
     grid-column: 2;
+}
+
+.empresa-texto{
+
 }
