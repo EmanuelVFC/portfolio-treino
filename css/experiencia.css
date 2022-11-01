@@ -9,7 +9,6 @@
 }
 
 .empresa{
-    grid-column: 2;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,7 +35,9 @@
     left: -100px;
     top: 20px;
     color: #525252;
-    font-size: 0.875rem;
+    width: 80px;
+    text-align: right;
+    font-size: 1rem;
 }
 
 .empresa-titulo{
@@ -52,4 +53,15 @@
 
 .empresa-habilidades{
     list-style: none;
+    display: flex;
+    gap: 15px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.empresa-habilidades > li{
+    display: block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    background-color: white;
 }
