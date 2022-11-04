@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import "colors.css";
+
 @import "header.css";
 
 @import "global.css";
@@ -7,3 +9,4 @@
 @import "introducao.css";
 
 @import "experiencia.css";
+

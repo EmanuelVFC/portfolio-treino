@@ -1,3 +1,7 @@
+@charset "UTF-8";
+
+@import "colors.css";
+
 /* RESET */
 *{
     margin: 0;
@@ -14,16 +18,25 @@
     gap: 100px;
 }
 
-.substitulo{
+.subtitulo{
     font-family: 'Fira Sans', Arial, sans-serif;
     font-size: 8rem;
     line-height: 1;
     word-break: break-all;
     max-width: 4ch;
     text-transform: uppercase;
-    color: #e0e0e0;
+    color: var(--subtitulo);
 }
 
 .experiencia{
     font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+.seta > img{
+    z-index: 1;
+    width: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: black;
 }

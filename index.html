@@ -8,19 +8,20 @@
     <title>Emanuel - Desenvolvedor Front-end</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="menu">
         <span class="titulo">Emanuel</span>
 
         <nav class="header-nav">
             <ul class="header-nav-menu">
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="introducao container">
+    <main class="introducao">
         <div class="introducao-imagem">
             <img src="images/perfil.jpg" alt="Emanuel Fontoura">
         </div>
@@ -31,9 +32,11 @@
         </div>
     </main>
 
-    <section aria-label="Experiência" class="experiencia container" id="experiencia">
+    <a href="#menu" class="seta"><img src="images/arrow-up-solid.svg" alt="Topo"></a>
 
-        <h2 class="substitulo">Experiência</h2>
+    <section aria-labelledby="exp" class="experiencia container" id="experiencia">
+
+        <h2 class="subtitulo" id="exp">Experiência</h2>
 
         <div>
             <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
@@ -97,6 +100,5 @@
         </div>
 
     </section>
-
 </body>
 </html>

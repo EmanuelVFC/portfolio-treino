@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
+@import "colors.css";
+
 .introducao{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
     align-items: center;
 }
 
@@ -34,7 +42,7 @@
 
 .introducao-titulo p{
     font-size: 1.5rem;
-    color: #525252;
+    color: var(--text-light);
 }
 
 @media (max-width: 1000px){
@@ -76,5 +84,6 @@
 
     .introducao-imagem{
         max-width: 300px;
+        margin: 0 auto;
     }
 }
