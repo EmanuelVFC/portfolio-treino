@@ -12,6 +12,7 @@
 }
 
 .empresa{
+    font-size: 0.875rem;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,7 +50,6 @@
     font-weight: bold;
 }
 .empresa-texto{
-    font-size: 0.875rem;
     line-height: 1.4;
     color: var(--text-light);
 }
@@ -77,7 +77,7 @@
 
     .subtitulo{
         font-size: 3rem;
-        max-width: none;
+        max-width: initial;
         word-break: normal;
         color: var(--text-bold);
         text-transform: capitalize;
@@ -85,5 +85,19 @@
 
     .experiencia > div >:nth-child(1){
         font-size: 1.25rem;
+    }
+
+    .empresa-ano{
+        position: initial;
+        width: initial;
+        order: 1;
+        text-align: left;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 400px){
+    .empresa{
+        grid-template-columns: 1fr;
     }
 }
