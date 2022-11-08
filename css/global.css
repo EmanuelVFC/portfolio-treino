@@ -15,6 +15,7 @@ body{
 
 .seta > img{
     z-index: 1;
+    display: block;
     width: 30px;
     position: fixed;
     bottom: 20px;
