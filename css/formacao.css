@@ -87,12 +87,98 @@
     margin-bottom: 40px;
 }
 
-.formacao-extra-cursos h3{
+.formacao-extra-cursos h3,.formacao-extra-idiomas h3{
     color: #8f8f8f;
     margin-bottom: 20px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    position: relative;
 }
 
-.formacao-extra-cursos > ul{
+.formacao-extra-cursos h3::before{
+    content: "";
+    display: block;
+    background: url(../images/cursos.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
+
+.formacao-extra-cursos ul, .formacao-extra-idiomas ul{
     list-style: none;
     color: #ffffff;
+    display: grid;
+    gap: 20px;
+}
+
+.formacao-extra-cursos ul li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    line-height: 1.1;
+}
+
+.formacao-extra-cursos > ul > li > span{
+    color: #8f8f8f;
+    font-size: 1.125rem;
+}
+
+.formacao-extra-idiomas ul li{
+    font-size: 1.125rem;
+    line-height: 1.1;
+}
+
+.formacao-extra-idiomas span{
+    color: #8f8f8f;
+}
+
+.formacao-extra-idiomas h3::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: url(../images/idiomas.svg);
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
+
+.rodape{
+    background-color: #000000;
+}
+
+.rodape-container{
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.rodape-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #cccccc;
+}
+
+.rodape-lista{
+    list-style: none;
+    color: #ffffff;
+}
+
+.rodape-lista li{
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.rodape-direito{
+    font-size: 1.125rem;
+    color: #8f8f8f;
+    grid-column: 1 / -1;
 }

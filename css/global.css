@@ -13,20 +13,10 @@ body{
     font-family: 'Fira Sans', Arial, sans-serif;
 }
 
-.container{
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
-}
-
 .seta > img{
     z-index: 1;
     width: 30px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: var(--preto);
 }
