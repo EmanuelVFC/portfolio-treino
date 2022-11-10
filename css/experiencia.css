@@ -2,6 +2,10 @@
 
 @import "colors.css";
 
+.formacao{
+    width: 100%;
+}
+
 .container-experiencia{
     max-width: 1200px;
     padding: 40px 20px;
@@ -87,12 +91,12 @@
 }
 
 @media (max-width: 800px){
-    .container{
+    .container-experiencia{
         grid-template-columns: 1fr;
         gap: 40px;
     }
 
-    .subtitulo{
+    .subtitulo-experiencia{
         font-size: 3rem;
         max-width: initial;
         word-break: normal;
